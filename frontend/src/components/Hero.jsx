@@ -79,15 +79,15 @@ const Hero = () => {
           muted
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
-          style={{ opacity: 0.55 }}
+          style={{ opacity: 1 }}
           src="https://customer-assets-wrfwihn1.emergentagent.net/job_ai-engineer-ayush/artifacts/1twr68rh_bg-video.mp4"
         />
 
-        {/* 2. Dark overlay — lighter to let video show through */}
+        {/* 2. Dark overlay — just enough for text readability */}
         <div
           className="absolute inset-0"
           style={{
-            background: 'linear-gradient(to bottom, rgba(10,11,13,0.30) 0%, rgba(10,11,13,0.20) 40%, rgba(10,11,13,0.30) 70%, rgba(10,11,13,0.70) 100%)',
+            background: 'linear-gradient(to bottom, rgba(10,11,13,0.15) 0%, rgba(10,11,13,0.10) 40%, rgba(10,11,13,0.15) 70%, rgba(10,11,13,0.60) 100%)',
           }}
         />
 
