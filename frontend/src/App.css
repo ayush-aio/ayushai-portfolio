@@ -1,5 +1,5 @@
 /* =========================================
-   DECCAN.AI-INSPIRED PORTFOLIO — REFINED
+   PREMIUM GLASSY PORTFOLIO — VIBRANT
    ========================================= */
 
 /* Font families */
@@ -17,7 +17,7 @@
    APP WRAPPER + GLOBAL BACKGROUND
    ========================================= */
 .app-wrapper {
-  background-color: #0c0d0e;
+  background-color: #0a0b0d;
   min-height: 100vh;
   color: #F6F3F0;
   overflow-x: hidden;
@@ -31,7 +31,7 @@
   inset: 0;
   z-index: 1;
   pointer-events: none;
-  opacity: 0.028;
+  opacity: 0.02;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='256' height='256' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
   background-repeat: repeat;
   background-size: 180px 180px;
@@ -43,16 +43,16 @@
 }
 
 /* =========================================
-   SECTION BASE — tighter rhythm
+   SECTION BASE — generous rhythm
    ========================================= */
 .deccan-section {
-  padding: 80px 0;
+  padding: 96px 0;
   position: relative;
 }
 
 @media (max-width: 768px) {
   .deccan-section {
-    padding: 56px 0;
+    padding: 64px 0;
   }
 }
 
@@ -70,29 +70,30 @@
 }
 
 /* =========================================
-   BUTTON — Deccan AI Style (polished)
+   BUTTON — Glassy accent
    ========================================= */
 .deccan-btn {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 10px 20px;
+  padding: 11px 22px;
   background-color: #F6F3F0;
-  color: #0c0d0e;
+  color: #0a0b0d;
   font-family: 'Inter', sans-serif;
   font-size: 13px;
   font-weight: 500;
   text-decoration: none;
-  border-radius: 2px;
+  border-radius: 3px;
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease, opacity 0.3s ease;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
   white-space: nowrap;
   letter-spacing: 0.01em;
 }
 
 .deccan-btn:hover {
-  background-color: #eae7e4;
+  background-color: #ffffff;
+  box-shadow: 0 0 20px rgba(246, 243, 240, 0.15), 0 4px 12px rgba(0,0,0,0.3);
 }
 
 .deccan-btn:active {
@@ -100,18 +101,21 @@
 }
 
 /* =========================================
-   CARD — refined borders + depth
+   CARD — Glassmorphism premium
    ========================================= */
 .deccan-card {
-  background: rgba(255, 255, 255, 0.015);
-  border: 1px solid rgba(246, 243, 240, 0.05);
-  border-radius: 4px;
-  transition: border-color 0.5s ease, background-color 0.5s ease;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 8px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: border-color 0.5s ease, background-color 0.5s ease, box-shadow 0.5s ease;
 }
 
 .deccan-card:hover {
-  border-color: rgba(246, 243, 240, 0.1);
-  background: rgba(255, 255, 255, 0.025);
+  border-color: rgba(255, 255, 255, 0.14);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.05) inset;
 }
 
 /* =========================================
@@ -141,19 +145,19 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  width: 100px;
+  width: 120px;
   z-index: 2;
   pointer-events: none;
 }
 
 .marquee-wrapper::before {
   left: 0;
-  background: linear-gradient(to right, #0c0d0e, transparent);
+  background: linear-gradient(to right, #0a0b0d, transparent);
 }
 
 .marquee-wrapper::after {
   right: 0;
-  background: linear-gradient(to left, #0c0d0e, transparent);
+  background: linear-gradient(to left, #0a0b0d, transparent);
 }
 
 .marquee-track {
@@ -176,14 +180,6 @@
 }
 
 /* =========================================
-   DIVIDERS
-   ========================================= */
-.divider-dotted {
-  width: 100%;
-  height: 1px;
-}
-
-/* =========================================
    SMOOTH SCROLL
    ========================================= */
 html {
@@ -198,7 +194,7 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0c0d0e;
+  background: #0a0b0d;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -214,12 +210,12 @@ html {
    SELECTION
    ========================================= */
 ::selection {
-  background: rgba(246, 243, 240, 0.12);
+  background: rgba(100, 140, 200, 0.25);
   color: #F6F3F0;
 }
 
 /* =========================================
-   LINKS — specific transitions only
+   LINKS
    ========================================= */
 a {
   transition: color 0.3s ease, opacity 0.3s ease;
@@ -244,24 +240,24 @@ a {
    HERO BACKGROUND LAYERS
    ========================================= */
 .hero-bg-base {
-  background-color: #0c0d0e;
+  background-color: #0a0b0d;
 }
 
 /* Technical grid — ultra fine */
 .hero-grid-pattern {
   background-image:
-    linear-gradient(rgba(246, 243, 240, 0.025) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(246, 243, 240, 0.025) 1px, transparent 1px);
+    linear-gradient(rgba(246, 243, 240, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(246, 243, 240, 0.02) 1px, transparent 1px);
   background-size: 64px 64px;
-  mask-image: radial-gradient(ellipse 70% 60% at 50% 45%, rgba(0,0,0,0.5) 0%, transparent 75%);
-  -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 45%, rgba(0,0,0,0.5) 0%, transparent 75%);
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 45%, rgba(0,0,0,0.4) 0%, transparent 75%);
+  -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 45%, rgba(0,0,0,0.4) 0%, transparent 75%);
 }
 
 /* Atmospheric depth layers */
 .hero-glow-primary {
   background: radial-gradient(
     ellipse 60% 50% at 30% 40%,
-    rgba(25, 45, 70, 0.25) 0%,
+    rgba(25, 45, 70, 0.2) 0%,
     transparent 70%
   );
 }
@@ -269,27 +265,34 @@ a {
 .hero-glow-secondary {
   background: radial-gradient(
     ellipse 45% 40% at 75% 55%,
-    rgba(18, 35, 55, 0.18) 0%,
+    rgba(18, 35, 55, 0.15) 0%,
     transparent 65%
-  );
-}
-
-.hero-glow-accent {
-  background: radial-gradient(
-    ellipse 35% 30% at 20% 55%,
-    rgba(40, 60, 85, 0.1) 0%,
-    transparent 60%
   );
 }
 
 /* Bottom fade into next section */
 .hero-bottom-fade {
-  background: linear-gradient(to bottom, transparent 0%, #0c0d0e 100%);
+  background: linear-gradient(to bottom, transparent 0%, #0a0b0d 100%);
 }
 
 /* =========================================
    SECTION ALTERNATE BG
    ========================================= */
 .section-alt-bg {
-  background-color: #0a0b0c;
+  background-color: #08090b;
+}
+
+/* =========================================
+   SKILL TAG — Glassy micro-pill
+   ========================================= */
+.skill-tag {
+  padding: 4px 10px;
+  font-size: 11px;
+  font-family: 'Inter', sans-serif;
+  color: rgba(246, 243, 240, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.025);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 }

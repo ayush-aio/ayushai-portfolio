@@ -26,25 +26,25 @@ export const navLinks = [
 export const skills = [
   {
     category: "Programming & ML",
-    image: "https://images.unsplash.com/photo-1639322537228-f710d846310a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMEFJJTIwdGVjaG5vbG9neXxlbnwwfHx8YmxhY2t8MTc5MDM3Mzc2OHww&ixlib=rb-4.1.0&q=85",
+    image: "https://images.unsplash.com/photo-1644325349124-d1756b79dd42?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxkaWdpdGFsJTIwbmV1cmFsJTIwbmV0d29ya3xlbnwwfHx8fDE3OTA0MjMxNzR8MA&ixlib=rb-4.1.0&q=85",
     description: "Python, SQL, Machine Learning, Deep Learning, Scikit-learn, PyTorch — core tools for building robust AI/ML solutions.",
     items: ["Python", "SQL", "Machine Learning", "Deep Learning", "Scikit-learn", "PyTorch"],
   },
   {
     category: "Generative AI & LLMs",
-    image: "https://images.unsplash.com/photo-1664854953181-b12e6dda8b7c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHwzfHxuZXVyYWwlMjBuZXR3b3JrJTIwZGFya3xlbnwwfHx8YmxhY2t8MTc5MDM3Mzc2OHww&ixlib=rb-4.1.0&q=85",
+    image: "https://images.unsplash.com/photo-1674027444485-cec3da58eef4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwzfHxkaWdpdGFsJTIwbmV1cmFsJTIwbmV0d29ya3xlbnwwfHx8fDE3OTA0MjMxNzR8MA&ixlib=rb-4.1.0&q=85",
     description: "End-to-end GenAI development: LLMs, RAG pipelines, Agentic AI, Prompt Engineering, NLP, Embeddings & Transformers.",
     items: ["Generative AI", "LLMs", "RAG", "Agentic AI", "Prompt Engineering", "NLP", "Embeddings", "Transformers"],
   },
   {
     category: "AI Frameworks",
-    image: "https://images.unsplash.com/photo-1561233835-f937539b95b9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMEFJJTIwdGVjaG5vbG9neXxlbnwwfHx8YmxhY2t8MTc5MDM3Mzc2OHww&ixlib=rb-4.1.0&q=85",
+    image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA4Mzl8MHwxfHNlYXJjaHwxfHxmdXR1cmlzdGljJTIwdGVjaG5vbG9neXxlbnwwfHx8fDE3OTA0MjMxNzR8MA&ixlib=rb-4.1.0&q=85",
     description: "LangChain, LangGraph, OpenAI, Hugging Face, Pinecone, Vector DBs — building production-grade AI applications.",
     items: ["LangChain", "LangGraph", "OpenAI", "Hugging Face", "Pinecone", "Vector Databases", "Pydantic"],
   },
   {
     category: "Deployment & Cloud",
-    image: "https://images.unsplash.com/photo-1584291527908-033f4d6542c8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MjJ8MHwxfHNlYXJjaHwyfHxkYXRhJTIwdmlzdWFsaXphdGlvbnxlbnwwfHx8YmxhY2t8MTc5MDM3Mzc2OHww&ixlib=rb-4.1.0&q=85",
+    image: "https://images.unsplash.com/photo-1562408590-e32931084e23?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTV8MHwxfHNlYXJjaHwxfHxnbG93aW5nJTIwY2lyY3VpdCUyMGJvYXJkfGVufDB8fHx8MTc5MDQyMzE4MXww&ixlib=rb-4.1.0&q=85",
     description: "FastAPI, Docker, Streamlit, AWS, Git — from local development to cloud-deployed production systems.",
     items: ["FastAPI", "Docker", "Streamlit", "API Integration", "AWS", "Git", "Jupyter Notebook"],
   },
@@ -65,7 +65,7 @@ export const experiences = [
       "Developed a custom business application E2E, covering solution design, development, integration, testing, and deployment.",
       "Collaborated with technical and business stakeholders to troubleshoot issues and ensure reliable systems.",
     ],
-    image: "https://images.unsplash.com/photo-1488229297570-58520851e868?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMEFJJTIwdGVjaG5vbG9neXxlbnwwfHx8YmxhY2t8MTc5MDM3Mzc2OHww&ixlib=rb-4.1.0&q=85",
+    image: "https://images.unsplash.com/photo-1549317336-206569e8475c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTN8MHwxfHNlYXJjaHwxfHxuZW9uJTIwQUklMjB2aXN1YWxpemF0aW9ufGVufDB8fHx8MTc5MDQyMzE3NHww&ixlib=rb-4.1.0&q=85",
   },
   {
     id: 1,
@@ -79,7 +79,7 @@ export const experiences = [
       "Developed an AI-powered financial chatbot to deliver interactive insights and financial performance comparisons.",
       "Tested and refined chatbot responses using NLP and Generative AI to simplify complex financial information.",
     ],
-    image: "https://images.unsplash.com/photo-1647356161576-4e80c6619a0e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHwxfHxuZXVyYWwlMjBuZXR3b3JrJTIwZGFya3xlbnwwfHx8YmxhY2t8MTc5MDM3Mzc2OHww&ixlib=rb-4.1.0&q=85",
+    image: "https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwxfHxkYXRhJTIwdmlzdWFsaXphdGlvbnxlbnwwfHx8fDE3OTA0MjMxODF8MA&ixlib=rb-4.1.0&q=85",
   },
 ];
 
@@ -93,7 +93,7 @@ export const projects = [
       "Engineered a 5-stage document processing pipeline covering ingestion, chunking, embedding, vector retrieval, and LLM generation, with multi-turn conversational memory.",
       "Delivered a production-ready application with FastAPI, Streamlit, and Docker, enabling API-based access, interactive querying, and reproducible deployment.",
     ],
-    image: "https://images.unsplash.com/photo-1639322537228-f710d846310a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMEFJJTIwdGVjaG5vbG9neXxlbnwwfHx8YmxhY2t8MTc5MDM3Mzc2OHww&ixlib=rb-4.1.0&q=85",
+    image: "https://images.unsplash.com/photo-1647356191320-d7a1f80ca777?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwyfHxkaWdpdGFsJTIwbmV1cmFsJTIwbmV0d29ya3xlbnwwfHx8fDE3OTA0MjMxNzR8MA&ixlib=rb-4.1.0&q=85",
   },
   {
     title: "Crypto Analysis Agent",
@@ -104,7 +104,7 @@ export const projects = [
       "Integrated FreeCryptoAPI and NewsAPI through LangChain tools to retrieve real-time cryptocurrency data and market news.",
       "Engineered a ReAct-based workflow with LangGraph and conversational memory, enabling dynamic tool execution and context-aware market insights.",
     ],
-    image: "https://images.unsplash.com/photo-1664854953181-b12e6dda8b7c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHwzfHxuZXVyYWwlMjBuZXR3b3JrJTIwZGFya3xlbnwwfHx8YmxhY2t8MTc5MDM3Mzc2OHww&ixlib=rb-4.1.0&q=85",
+    image: "https://images.unsplash.com/photo-1550275994-f0ada0c3db31?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTN8MHwxfHNlYXJjaHwzfHxuZW9uJTIwQUklMjB2aXN1YWxpemF0aW9ufGVufDB8fHx8MTc5MDQyMzE3NHww&ixlib=rb-4.1.0&q=85",
   },
   {
     title: "AI Document Processing & Task Routing",
@@ -115,7 +115,7 @@ export const projects = [
       "Integrated Docling and Pydantic to parse heterogeneous invoices and produce structured, validated data.",
       "Transformed unstructured invoice documents into structured models, reducing manual data handling and enabling seamless automation.",
     ],
-    image: "https://images.unsplash.com/photo-1561233835-f937539b95b9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwyfHxhYnN0cmFjdCUyMEFJJTIwdGVjaG5vbG9neXxlbnwwfHx8YmxhY2t8MTc5MDM3Mzc2OHww&ixlib=rb-4.1.0&q=85",
+    image: "https://images.unsplash.com/photo-1752253604157-65fb42c30816?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzV8MHwxfHNlYXJjaHwxfHxob2xvZ3JhcGhpYyUyMGludGVyZmFjZXxlbnwwfHx8fDE3OTA0MjMxODF8MA&ixlib=rb-4.1.0&q=85",
   },
 ];
 

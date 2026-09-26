@@ -44,7 +44,7 @@ const ProjectCard = ({ project, index, isMain = false }) => {
             loading="lazy"
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0a0b0c] via-[#0a0b0c]/50 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#08090b] via-[#08090b]/30 to-transparent" />
           <div className="absolute bottom-4 left-5">
             <span className="slash-heading text-[10px]">
               // {project.date}
@@ -129,7 +129,7 @@ const Projects = () => {
           </svg>
         </div>
 
-        <div ref={gridRef} className="grid grid-cols-1 md:grid-cols-3 gap-3">
+        <div ref={gridRef} className="grid grid-cols-1 md:grid-cols-3 gap-5">
           {projects.map((project, i) => (
             <ProjectCard key={project.title} project={project} index={i} isMain={true} />
           ))}

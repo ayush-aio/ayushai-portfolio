@@ -72,22 +72,22 @@ const Hero = () => {
         {/* 0. Base color — fallback before video loads */}
         <div className="absolute inset-0 hero-bg-base" />
 
-        {/* 1. BACKGROUND VIDEO */}
+        {/* 1. BACKGROUND VIDEO — more visible */}
         <video
           autoPlay
           loop
           muted
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
-          style={{ opacity: 0.35 }}
+          style={{ opacity: 0.55 }}
           src="https://customer-assets-wrfwihn1.emergentagent.net/job_ai-engineer-ayush/artifacts/1twr68rh_bg-video.mp4"
         />
 
-        {/* 2. Dark overlay for readability */}
+        {/* 2. Dark overlay — lighter to let video show through */}
         <div
           className="absolute inset-0"
           style={{
-            background: 'linear-gradient(to bottom, rgba(12,13,14,0.55) 0%, rgba(12,13,14,0.40) 40%, rgba(12,13,14,0.50) 70%, rgba(12,13,14,0.85) 100%)',
+            background: 'linear-gradient(to bottom, rgba(10,11,13,0.30) 0%, rgba(10,11,13,0.20) 40%, rgba(10,11,13,0.30) 70%, rgba(10,11,13,0.70) 100%)',
           }}
         />
 

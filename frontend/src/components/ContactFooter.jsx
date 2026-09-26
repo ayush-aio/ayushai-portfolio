@@ -44,7 +44,7 @@ const EducationSection = () => {
           initial={{ opacity: 0, y: 20, filter: 'blur(12px)' }}
           animate={inView ? { opacity: 1, y: 0, filter: 'blur(0px)' } : {}}
           transition={{ duration: 0.6 }}
-          className="grid grid-cols-1 md:grid-cols-2 gap-3"
+          className="grid grid-cols-1 md:grid-cols-2 gap-5"
         >
           {/* Education Card */}
           <div className="deccan-card p-8">
@@ -136,7 +136,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-[#08090a] border-t border-white/[0.03]">
+    <footer className="bg-[#060708] border-t border-white/[0.04]">
       <motion.div
         ref={ref}
         initial={{ opacity: 0, y: 20, filter: 'blur(12px)' }}

@@ -39,36 +39,36 @@ const SkillCard = ({ skill, index }) => {
       className="group block"
     >
       <div className="deccan-card overflow-hidden">
-        <div className="relative h-[200px] overflow-hidden">
+        <div className="relative h-[220px] overflow-hidden rounded-t-lg">
           <img
             src={skill.image}
             alt={skill.category}
             loading="lazy"
-            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0c0d0e] via-[#0c0d0e]/40 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0a0b0d] via-[#0a0b0d]/30 to-transparent" />
         </div>
-        <div className="p-6">
+        <div className="p-7">
           <h3 className="font-instrument text-xl font-semibold text-[#F6F3F0] flex items-center gap-2">
             {skill.category}
             <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               <ArrowUpRight size={18} className="text-[#F6F3F0]/60" />
             </span>
           </h3>
-          <p className="text-[#F6F3F0]/50 font-inter text-sm leading-relaxed mt-3">
+          <p className="text-[#F6F3F0]/45 font-inter text-[13px] leading-relaxed mt-3">
             {skill.description}
           </p>
-          <div className="flex flex-wrap gap-2 mt-4">
+          <div className="flex flex-wrap gap-2 mt-5">
             {skill.items.slice(0, 5).map((item) => (
               <span
                 key={item}
-                className="px-2.5 py-1 text-xs font-inter text-[#F6F3F0]/50 border border-white/[0.06] rounded-sm bg-white/[0.02]"
+                className="skill-tag"
               >
                 {item}
               </span>
             ))}
             {skill.items.length > 5 && (
-              <span className="px-2.5 py-1 text-xs font-inter text-[#F6F3F0]/40">
+              <span className="skill-tag text-[#F6F3F0]/30">
                 +{skill.items.length - 5} more
               </span>
             )}
@@ -107,7 +107,7 @@ const Skills = () => {
           </a>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
           {skills.map((skill, i) => (
             <SkillCard key={skill.category} skill={skill} index={i} />
           ))}

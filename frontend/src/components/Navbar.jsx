@@ -24,7 +24,7 @@ const Navbar = () => {
       <nav
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
           scrolled
-            ? 'bg-[#0c0d0e]/80 backdrop-blur-xl border-b border-white/[0.04]'
+            ? 'bg-[#0a0b0d]/80 backdrop-blur-xl border-b border-white/[0.04]'
             : 'bg-transparent'
         }`}
       >
@@ -38,10 +38,8 @@ const Navbar = () => {
             }}
             className="flex items-center gap-2 group"
           >
-            <span className="text-[#F6F3F0] font-instrument text-xl font-semibold tracking-tight">
-              {personalInfo.firstName}
-              <span className="opacity-50">.</span>
-              <span className="text-[#F6F3F0]/60">ai</span>
+            <span className="text-[#F6F3F0] font-instrument text-lg font-semibold tracking-tight">
+              Ayush Mohan Tripathi
             </span>
           </a>
 
@@ -85,13 +83,13 @@ const Navbar = () => {
 
       {/* Mobile Drawer */}
       <div
-        className={`fixed inset-0 z-[60] bg-[#0c0d0e] transition-transform duration-500 ease-out ${
+        className={`fixed inset-0 z-[60] bg-[#0a0b0d] transition-transform duration-500 ease-out ${
           mobileOpen ? 'translate-x-0' : 'translate-x-full'
         } md:hidden`}
       >
         <div className="flex items-center justify-between px-6 h-[72px]">
-          <span className="text-[#F6F3F0] font-instrument text-xl font-semibold">
-            {personalInfo.firstName}<span className="opacity-50">.</span><span className="text-[#F6F3F0]/60">ai</span>
+          <span className="text-[#F6F3F0] font-instrument text-lg font-semibold">
+            Ayush Mohan Tripathi
           </span>
           <button
             className="text-[#F6F3F0] p-2"
